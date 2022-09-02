@@ -4,6 +4,7 @@ function Todo() {
   const [newitem, setnewitem] = useState("");
   const [newarr, setnewarr] = useState([]);
 
+
   function addlist() {
     const item = {
       id: Math.floor(Math.random * 1000),
